@@ -134,7 +134,7 @@ fn main() {
     //     println!("Russian hi {}", &str[idx..]);
     // }
 
-    let filename = "C:/Users/paull/Desktop/me/Progammiersprachen/Rust/my_first_rust_project/src/main.rs";
+    let filename = "nicht heute";
     let mut file = File::open(&filename).expect("can't open the file");
     let mut text = String::new();
     file.read_to_string(&mut text).expect("can't read the file");
